@@ -1,1 +1,6 @@
-/* add home page styles here */
+.shells {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
