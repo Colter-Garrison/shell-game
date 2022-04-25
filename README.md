@@ -24,3 +24,20 @@ Additional considerations:
   - What needs to live in a persistence layer?
 - Is there some state we need to initialize?
 - Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be resused?)
+
+	![Shell game bones](shell-game-bones.png)
+
+#HTML Elements
+-Shell image
+-ball
+-button for each shell
+-wins
+losses
+attempts
+
+#Events
+on click of button 
+-generate a random number between 1 and 3 to decide which shell the ball is under
+-grab the shell with that number and add the reveal class to it
+-if random number === 1 --- the user has won. increment the wins, else increment the losses
+-update the wins/losses/total spans
