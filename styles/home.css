@@ -5,7 +5,7 @@
 }
 
 .shell {
-    width: 250px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,7 +13,7 @@
     position: relative;
 }
 
-shell.reveal img {
+.shell.reveal img {
     transform: translateY(-60px);
 }
 
@@ -28,7 +28,7 @@ shell.reveal img {
     position: absolute;
     height: 40px;
     width: 40px;
-    top: 120px;
+    top: 70px;
     background-color: aqua;
     border-radius: 50%;
     box-shadow: 5px -2px 5px rgba(0, 0, 0, 0.6);

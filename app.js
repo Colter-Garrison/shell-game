@@ -3,7 +3,7 @@
 const button1 = document.getElementById('shell-1-button');
 const button2 = document.getElementById('shell-2-button');
 const button3 = document.getElementById('shell-3-button');
-// console.log(button3);
+// console.log(button1);
 
 const shell1 = document.getElementById('shell-1');
 const shell2 = document.getElementById('shell-2');
@@ -42,11 +42,11 @@ button1.addEventListener('click', () => {
 });
 
 button2.addEventListener('click', () => {
-  shell1.classList.remove('reveal');
-  shell2.classList.remove('reveal');
-  shell3.classList.remove('reveal');
+    shell1.classList.remove('reveal');
+    shell2.classList.remove('reveal');
+    shell3.classList.remove('reveal');
 
-  // console.log('clicking button 2');
+    // console.log('clicking button 2');
 
     const randomShell = Math.ceil(Math.random() * 3);
     // console.log('the random shell is', randomShell);
@@ -71,7 +71,7 @@ button3.addEventListener('click', () => {
     shell2.classList.remove('reveal');
     shell3.classList.remove('reveal');
 
-    // console.log('clicking button 1');
+    // console.log('clicking button 3');
 
     const randomShell = Math.ceil(Math.random() * 3);
     // console.log('the random shell is', randomShell);
