@@ -1,5 +1,5 @@
 .shells {
-    justify-content: center;
+    margin-top: 40px;
     display: flex;
     flex-direction: row;
 }
